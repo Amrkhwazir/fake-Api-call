@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+.card{
+    padding: 10px 15px;
+    /* border: 1px solid red !important; */
+    width: 330px;
+    margin: 30px;
+}
+.card img{
+    margin-left: 20px;
+    width: 250px;
+    height: 270px;
+}
+.card-body{
+    margin-top: 10px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.card-body h5{
+    font-size: 18px;
+}
+.card-body p{
+    font-size: 14px;
+}
